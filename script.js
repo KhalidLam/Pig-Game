@@ -85,7 +85,7 @@ function initGame(){
     activePlayer = 0;
     gamePlaying = true;
     previousDice = null;
-    winScore = 100;
+    winScore = 50;
     
     document.querySelector('.dice').style.display = 'none';
 
