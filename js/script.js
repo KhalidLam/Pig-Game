@@ -35,7 +35,7 @@ document.querySelector('.btn-roll').addEventListener('click', function(){
         // 2 set & Display the result to dice img
         var diceDOM = document.querySelector('.dice');
         diceDOM.style.display = 'block';
-        diceDOM.src = 'dice-'+ dice +'.png';
+        diceDOM.src = 'img/dice-'+ dice +'.png';
         
         // 3 update current score IF the rolled number was NOT a 1
         if (dice !== 1){
