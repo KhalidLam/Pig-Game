@@ -10,7 +10,9 @@
 
 
 body {
-    background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(back.jpg);
+    background: #74ebd5;
+    background: -webkit-linear-gradient(to left, #ACB6E5, #74ebd5); 
+    background: linear-gradient(to left, #ACB6E5, #74ebd5); 
     background-size: cover;
     background-position: center;
     font-family: Lato;
